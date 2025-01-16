@@ -23,14 +23,14 @@ Application Load Balancer (ALB): Routes and balances traffic between EC2 instanc
 Route Table: Configures how traffic flows within the VPC and ensures correct routing of requests.
 Security Groups: Define the inbound and outbound traffic rules for EC2 instances.
 
-#Objective
+# Objective
 The objective of this project is to:
 Set up an Application Load Balancer in AWS for distributing traffic to multiple EC2 instances.
 Create a scalable architecture that can handle varying levels of web traffic efficiently.
 Ensure fault tolerance by automatically rerouting traffic if one EC2 instance becomes unhealthy.
 Demonstrate best practices in setting up a secure, highly available web application infrastructure using AWS services.
 
-#Why Use These AWS Services?
+# Why Use These AWS Services?
 Scalability: Application Load Balancer (ALB) automatically distributes incoming traffic across multiple EC2 instances, ensuring the application can handle large amounts of traffic.
 High Availability: By spreading traffic across multiple instances in different availability zones, the setup ensures that even if one instance fails, the traffic is directed to healthy instances.
 Security: The VPC and subnets provide network isolation, while security groups protect EC2 instances from unauthorized access.
